@@ -1,0 +1,1 @@
+# A versão do meu python (14) não aceita o pygame

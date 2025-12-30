@@ -1,0 +1,65 @@
+====================================
+FUNÇÕES DE STRING EM PYTHON (str)
+====================================
+
+--- FORMATAÇÃO DE TEXTO ---
+upper()        -> Converte para MAIÚSCULAS
+lower()        -> Converte para minúsculas
+title()        -> Primeira letra de cada palavra em maiúscula
+capitalize()   -> Primeira letra da string em maiúscula
+swapcase()     -> Inverte maiúsculas e minúsculas
+
+--- REMOÇÃO DE ESPAÇOS ---
+strip()        -> Remove espaços do início e fim
+lstrip()       -> Remove espaços da esquerda
+rstrip()       -> Remove espaços da direita
+
+--- BUSCA E VERIFICAÇÃO ---
+find(sub)      -> Retorna a posição da substring ou -1
+index(sub)     -> Retorna a posição da substring (erro se não achar)
+count(sub)     -> Conta quantas vezes a substring aparece
+startswith(x)  -> Verifica se começa com x
+endswith(x)    -> Verifica se termina com x
+in             -> Verifica se um valor existe na string
+
+--- SUBSTITUIÇÃO ---
+replace(a, b)  -> Substitui a por b
+
+--- DIVISÃO E JUNÇÃO ---
+split()        -> Divide a string em uma lista
+rsplit()       -> Divide começando da direita
+splitlines()   -> Divide por linhas
+join(iterável) -> Junta elementos usando a string como separador
+
+--- TESTES DE CONTEÚDO ---
+isalpha()      -> Apenas letras
+isdigit()      -> Apenas números
+isalnum()      -> Letras e números
+islower()      -> Todas minúsculas
+isupper()      -> Todas maiúsculas
+isspace()      -> Apenas espaços
+istitle()      -> Formato de título
+
+--- TAMANHO E ACESSO ---
+len(string)    -> Retorna o tamanho da string
+string[x]      -> Acessa caractere pela posição
+string[a:b]    -> Fatiamento (slice)
+
+--- FORMATAÇÃO DE STRINGS ---
+format()       -> Formatação de texto
+f-string       -> Formatação moderna (f"{variavel}")
+
+--- ALINHAMENTO E PREENCHIMENTO ---
+center(t, c)   -> Centraliza preenchendo com caractere
+ljust(t, c)    -> Alinha à esquerda
+rjust(t, c)    -> Alinha à direita
+zfill(n)       -> Preenche com zeros à esquerda
+
+--- OUTROS MÉTODOS ÚTEIS ---
+casefold()     -> Versão avançada do lower()
+encode()       -> Converte string para bytes
+expandtabs()   -> Substitui tabs por espaços
+partition()    -> Divide em 3 partes
+rpartition()   -> Divide da direita
+removeprefix() -> Remove prefixo
+removesuffix() -> Remove sufixo
